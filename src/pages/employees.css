@@ -1,0 +1,13 @@
+.empl-cards{
+  background: #fff;
+  transition: 0.3s ease;
+}
+.employee-table{
+  padding: 30px;
+  border-radius: 10px;
+       border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.addEmply-btn{
+background-color: purple;
+}

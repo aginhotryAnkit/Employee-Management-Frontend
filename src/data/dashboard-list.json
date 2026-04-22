@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "totalEmployees": {
+      "title": "Total Employees",
+      "count" : "256"
+    },
+    "activeEmployees": {
+      "title": "Active Employees",
+      "count" : "226"
+    },
+    "pendingInvites": 3,
+    "departments": 14
+  },
+  "recentEmployees": [
+    {
+      "id": 1,
+      "name": "Kajal jaiswal",
+      "email": "kajal@company.com",
+      "role": "HR",
+      "department": "Human Resources",
+      "manager": null,
+      "status": "Probation",
+      "avatar": "avatar-img-9.png"
+    },
+    {
+      "id": 2,
+      "name": "Rohit Sharma",
+      "email": "rohit@company.com",
+      "role": "CTO",
+      "department": "Engineering",
+      "manager": null,
+      "status": "Active",
+      "avatar": "avatar-img-3.png"
+    },
+    {
+      "id": 3,
+      "name": "Priyal Bhatnagar",
+      "email": "priya@company.com",
+      "role": "Manager",
+      "department": "Engineering",
+      "manager": "Rohit Sharma",
+      "status": "Active",
+      "avatar": "avatar-img-2.png"
+    }
+  ],
+  "pendingInvites": [
+    {
+      "email": "neha@company.com",
+      "role": "Jr Developer",
+      "expiresIn": "12 hours"
+    },
+    {
+      "email": "newhire@company.com",
+      "role": "Designer",
+      "expiresIn": "1 day"
+    }
+  ],
+  "departmentStats": [
+    {
+      "department": "Engineering",
+      "count": 12
+    },
+    {
+      "department": "Human Resources",
+      "count": 5
+    },
+    {
+      "department": "Finance",
+      "count": 4
+    },
+    {
+      "department": "Design",
+      "count": 4
+    }
+  ]
+}
